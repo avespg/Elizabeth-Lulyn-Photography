@@ -1,0 +1,95 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Elizabeth Lulyn | Photography</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<!-- <link rel="shortcut icon" href="img/favicon.png" type="image/png"> -->
+	<!-- <link rel="stylesheet" href="icons/css/fontello.css"> -->
+	<!-- ПАРАЛЛАКС -->
+	<!-- <script src="js-plugins/jquery-3.3.1.min.js"></script> -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>	 -->
+	<!-- <script src="js-plugins/parallax.min.js"></script> -->
+	<!-- Slider -->
+	<!-- <script src="js/script.js"></script> -->
+	
+	<!-- Трансляция инстаграм -->
+	<script src="js/instafeed.js"></script>
+	<script>
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: '9a329f4f8ab94c2f98bb28996566c1b3'
+    });
+    feed.run();
+	</script>
+
+</head>
+<body>
+	<header>
+		<div class="borderTop"></div>
+		<div class="logo"></div>
+		<h1>Elizabeth Lulyn</h1>
+		<p id="subTitle">Photography</p>
+	
+			<nav>
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Meet Elizabeth</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Investments</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+		<div style="clear: both"></div>
+		</nav>
+	</header>	
+	<section >
+				<!-- <ul class="indexPhoto"> -->
+					<!-- <li><div id="indexPhotoOne"></div></li> -->
+					<!-- <li><div id="indexPhotoTwo"></div></li> -->
+					<!-- <li><div id="indexPhotoThree"></div></li> -->
+				<!-- </ul> -->
+
+			<div class="indexPhoto">
+					<div id="indexPhotoOne"></div>
+					<div id="indexPhotoTwo"></div>
+					<div id="indexPhotoThree"></div>
+				</div>
+				
+				<div style="clear: both"></div>
+	</section>
+
+	<section class="textImg">
+	<div class="leftCol">
+		<h2 class="welcome">Welcome</h2>
+			<p class="align">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur lobortis quam et faucibus. Aliquam sollicitudin id nibh ut tincidunt. Etiam fringilla fringilla velit vitae faucibus. Nullam ut arcu lectus. Vestibulum pretium, velit nec consequat rhoncus, nisl purus tincidunt dui, at vulputate urna sem et lacus.</p>
+				<ul class="sectionSocial">
+					<li><a href="https://www.facebook.com"><div id="sectionFb"></div></a></li>
+					<li><a href="https://www.instagram.com"></a><div id="sectionIg"></div></li>
+					<li><a href="https://www.pinterest.com"></a><div id="sectionPin"></div></li>
+				</ul>
+		</div>		
+		<div class="map">
+			<p class="uppercase">Based in </p>
+			<h2>your city</h2>
+			</div>
+		<div style="clear: both"></div>
+	</section>
+	<section>
+		<h2>Instagram</h2>
+		<div id="instafeed"></div>
+	</section>
+	
+	<footer >
+		<ul class="bottomFooter">
+			<li><div id="footerFb"></div><a href="https://www.facebook.com">Facebook</a></li>
+			<li><div id="footerIg"></div><a href="https://www.instagram.com">Instagram</a></li>
+			<li><div id="footerPin"></div><a href="https://www.pinterest.com">Pinterest</a></li>
+		</ul>
+		<p>Olga Grusha 2019 Elizabeth Leelyn Photography | Your city photographer</p>
+	</footer>
+</body>
+</html>

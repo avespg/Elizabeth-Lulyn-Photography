@@ -1,0 +1,269 @@
+﻿@font-face {
+	font-family: "Bickham Script Three"; 
+	src: url('font/BickhamScriptThree.ttf') format('truetype'),
+	url('font/BickhamScriptThree.woff') format('woff'),
+	url('font/BickhamScriptThree.svg') format('svg');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+	font-family: "Skarpa Light 2.0"; 
+	src: url('font/SkarpaLight2.0.ttf') format('truetype'),
+	url('font/SkarpaLight2.0.woff') format('woff'),
+	font-weight: normal;
+	font-style: normal; 
+}
+/* @font-face { */
+	/* font-family: "TrajanPro3-Bold";  */
+	/* src: url('font/TrajanPro3-Bold.ttf') format('truetype'), */
+	/* url('font/TrajanPro3-Bold.woff') format('woff'), */
+	/* url('font/TrajanPro3-Bold.svg') format('svg'); */
+	/* font-weight: bold; */
+	/* font-style: bold;  */
+/* } */
+/* @font-face { */
+	/* font-family: "TrajanPro3-Regular";  */
+	/* src: url('font/TrajanPro3-Bold.ttf') format('truetype'), */
+	/* url('font/TrajanPro3-Bold.woff') format('woff'), */
+	/* url('font/TrajanPro3-Bold.svg') format('svg'); */
+	/* font-weight: normal; */
+	/* font-style: normal;  */
+}
+/*общее*/
+ul, li {
+	list-style: none;
+}
+a {
+	display: block;
+}
+/*общее - конец*/
+
+/*заголовок сайта*/
+.borderTop {
+	background-image: url(img/borderTop.png);
+	background-repeat: repeat-x;
+	/* width: 201px; */
+	height: 10px;
+}
+.logo {
+	background-image: url(img/logo.png);
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 76px;
+	margin: 20px auto 0 ;	
+}
+h1 {
+	font: normal 3.5em 'Bickham Script Three';
+	text-align: center;
+	color: #a7a7a7;
+	margin: 0;
+}
+h2 {
+	font: normal 3em 'Bickham Script Three';
+	text-align: center;
+	color: #a7a7a7;
+
+	text-transform: lowercase;
+}
+p {
+	
+}
+#subTitle, .uppercase {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	color: #a7a7a7;
+	letter-spacing: .5em;
+}
+/*заголовок сайта - конец*/
+
+/*меню*/
+.menu{
+    text-align: center;
+	text-transform: uppercase;
+}
+.menu li {
+    display:inline-block;
+	margin: 20px;
+}
+.menu li a {
+	color: #a7a7a7;
+	letter-spacing: .2em;
+	/* font-family: 'TrajanPro3-Regular'; */
+}
+.menu li a:hover, footer li a:hover {
+	color: #d6bbb2;
+	/* font-family: 'TrajanPro3-Bold'; */
+}
+
+/*меню - конец*/
+
+/*блок с фото - начало*/
+#indexPhotoOne {
+	background-image: url(img/wedding1.png);
+	background-repeat: no-repeat;
+	width: 359px;
+	height: 514px;
+	margin: 10px;
+	
+}
+#indexPhotoTwo {
+	background-image: url(img/wedding2.png);
+	background-repeat: no-repeat;
+	width: 338px;
+	height: 514px;
+	margin: 10px 0;
+}
+#indexPhotoThree {
+	background-image: url(img/wedding3.png);
+	background-repeat: no-repeat;
+	width: 359px;
+	height: 514px;
+	margin: 10px;
+}
+.indexPhoto div {
+	float: left;
+}
+.indexPhoto {
+	width: 1096px;
+	border: .5px solid #a7a7a7;
+	margin: 0 auto;
+	height: 534px;
+}
+
+section {
+margin-bottom: 40px;
+}
+
+/*блок с фото - конец*/
+/*второй блок - начало*/
+.welcome {
+	background-image: url(img/welcome.png);
+	background-repeat: no-repeat;
+	width: 299px;
+	height: 97px;
+	line-height: 127px;
+	margin: 0 auto;
+	
+}
+.align {
+	text-align: center;
+	margin-bottom: 20px;
+	font: normal 1.2em "Times new roman";
+	/* letter-spacing: .1em; */
+	
+}
+.map {
+	background-image: url(img/map.png);
+	background-repeat: no-repeat;
+	width: 480px;
+	/* width: 30%; */
+	height: 343px;
+	margin-left: 400px; 
+
+}
+.uppercase {
+	/* margin: 80px auto 0	; */
+	margin-top: 100px;
+	padding-top: 50px;
+	/* vertical-align: middle; */
+}
+.textImg {
+		width: 70%;
+		margin: 0 auto;
+}
+
+
+.leftCol {
+	float: left; /* обтекание справа */
+	width: 320px; /* ширина колонки */
+}
+.sectionSocial {
+		text-align: center;
+}
+.sectionSocial li {
+	display: inline-block;
+
+	/* margin-bottom: 150px; */
+}
+#sectionFb {
+	background-image: url(img/fb.png);
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 40px;
+}
+#sectionIg {
+	background-image: url(img/ig.png);
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 41px;
+}
+#sectionPin {
+	background-image: url(img/pin.png);
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 43px;
+}
+/*второй блок - конец*/
+
+
+/*третий блок - начало*/
+
+/*третий блок - конец*/
+
+/*футер - начало*/
+
+footer {
+	width: 100%;
+	height: 200px;
+	background-color: #F2E9E6;
+
+	
+}
+.bottomFooter {
+		text-align: center;
+	
+}
+.bottomFooter li {
+	/* float: left;  */
+	
+	margin: 20px 20px 10px;
+	display:inline-block;
+}
+footer li a {
+	font: normal 2.5em 'Bickham Script Three';
+	color: #a7a7a7;
+	text-transform:lowercase;
+	
+}
+footer p {
+	text-transform: uppercase;
+	font-size: .8em;
+	color: #a7a7a7;
+	text-align: center;
+	letter-spacing: .1em;
+}
+
+#footerFb {
+	background-image: url(img/leaf1.png);
+	background-repeat: no-repeat;
+	width: 56px;
+	height: 39px;
+	margin: 0 auto;
+}
+#footerIg {
+	background-image: url(img/leaf2.png);
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 46px;
+	margin: 0 auto;
+}
+#footerPin {
+	background-image: url(img/leaf3.png);
+	background-repeat: no-repeat;
+	width: 62px;
+	height: 34px;
+	margin: 0 auto;
+}
+/*футер - конец*/
